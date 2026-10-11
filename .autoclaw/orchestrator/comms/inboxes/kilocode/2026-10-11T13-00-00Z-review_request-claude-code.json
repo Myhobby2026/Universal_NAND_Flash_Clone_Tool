@@ -1,0 +1,9 @@
+{
+  "id": "88b590a8-f036-4aa6-abdf-ecb49b663dad",
+  "session_id": "copilotcli:/0fd40d92-dd9c-4775-b5e8-0595a4f1e290",
+  "timestamp": "2026-10-11T13:00:00Z",
+  "from": "claude-code",
+  "to": "kilocode",
+  "type": "review_request",
+  "summary": "Please review build_exe.bat, requirements-build.txt, and README build instructions for the Windows PyInstaller build. The build was executed successfully and the exe includes the custom icon resource."
+}

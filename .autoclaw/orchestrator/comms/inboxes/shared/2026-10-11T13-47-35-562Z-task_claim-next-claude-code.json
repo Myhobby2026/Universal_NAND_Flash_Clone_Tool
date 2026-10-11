@@ -1,0 +1,14 @@
+{
+  "id": "msg-claim-next-claude-code-mv3vo556",
+  "from": "orchestrator-loop",
+  "to": "shared",
+  "type": "task_claim",
+  "timestamp": "2026-10-11T13:47:35.562Z",
+  "task_id": "next-claude-code",
+  "payload": {
+    "vendor": "claude-code",
+    "priority": "low"
+  },
+  "requires_response": true,
+  "expires_at": "2026-10-11T14:17:35.562Z"
+}

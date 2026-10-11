@@ -1,0 +1,32 @@
+{
+  "agents": [
+    {
+      "id": "kilocode",
+      "name": "Kilo Code",
+      "extension_id": "kilocode.kilo-code",
+      "detected": true,
+      "rules_path": ".clinerules\\cross-agent-protocol.md",
+      "inbox_path": ".autoclaw/orchestrator/comms/inboxes/kilocode/",
+      "hooks_supported": false,
+      "last_heartbeat": null,
+      "status": "detected",
+      "loop_mechanism": "plain-message",
+      "keepalive_template": "templates/keepalive/kilocode.md"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "extension_id": "Anthropic.claude-code",
+      "detected": true,
+      "rules_path": ".claude\\rules\\cross-agent-protocol.md",
+      "inbox_path": ".autoclaw/orchestrator/comms/inboxes/claude-code/",
+      "hooks_supported": false,
+      "last_heartbeat": null,
+      "status": "detected",
+      "loop_mechanism": "slash-loop",
+      "keepalive_template": "templates/keepalive/claude-code.md"
+    }
+  ],
+  "ide": "Visual Studio Code",
+  "provisioned_at": "2026-10-11T12:47:04.925Z"
+}
